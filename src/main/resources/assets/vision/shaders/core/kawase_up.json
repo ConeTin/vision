@@ -1,0 +1,10 @@
+{
+    "vertex": "vision:core/blur",
+    "fragment": "vision:core/kawase_up",
+    "samplers": [
+        { "name": "Sampler0" }
+    ],
+    "uniforms": [
+        { "name": "HalfPixel", "type": "float", "count": 2, "values": [ 0.0, 0.0 ] }
+    ]
+}

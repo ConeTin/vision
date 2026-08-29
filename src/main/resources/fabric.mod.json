@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "vision",
+  "version": "${version}",
+  "name": "Vision",
+  "description": "Spatial visionOS-style windows in Minecraft: frosted-glass panels floating in the world, with an embedded browser inside.",
+  "authors": [
+    "ConeTin"
+  ],
+  "contact": {
+    "sources": "https://github.com/ConeTin/vision",
+    "issues": "https://github.com/ConeTin/vision/issues"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "ru.conetin.vision.client.VisionClient"
+    ]
+  },
+  "mixins": [
+    "vision.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}",
+    "mcef": "*"
+  }
+}
